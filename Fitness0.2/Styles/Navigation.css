@@ -1,31 +1,44 @@
-/* This is the Setting or ALL Elements in the Section */
-#Header_Section {
-    border: 1px solid black;
-    border-radius: 25px;
+   html {
+    box-sizing: inherit;
+}
+        /* All Setting vor The Navigation in the head */
+#Navigations_Header {
+position: absolute;
+width: 99vw;
+height: 28vh;
+border: 2px solid;
+border-radius: 15px;
+background-color: var(--clr-gold);
+font-family: 'Philosopher', sans-serif;
+}
+.navigation_container {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-header {
+    display:inline;
+   
+}
+.navigation-headline {
     padding: 15px;
-    margin: 15px;
-    width:  98vw;
-    height: 25vh;
-    background-color: var(--clr-dark);
+    font-size: var(--size-6xl)
 }
-
-#Header_Section img {
-    width: 20vw;
-    height: 20vh;
-    object-fit: cover;
-    border-radius: 30px;
-}
-
-.Header_container {
-    display:flex;
-    justify-content: space-between;
-    align-items:center; 
-}
-
-.secondary-section {
-    text-align: right;
-    justify-content: space-between;
+li {
+    padding: 10px;
+    text-align: center;
     align-items: center;
-    font-size: var(--size-1xl);
-    color: red;
+    display: flex;
+    font-size: var(--size-3xl);
 }
+li a {
+    color: var(--clr-dark);
+}
+li a:hover {
+background-color: var(--clr-light);
+color:black;
+border: 1px solid grey;
+border-radius: 15px;
+text-shadow: 20px 20px 20px;
+}
+
+
