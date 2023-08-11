@@ -1,34 +1,31 @@
-#Navigation {
+/* This is the Setting or ALL Elements in the Section */
+#Header_Section {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    width:  98vw;
+    height: 25vh;
     background-color: var(--clr-dark);
 }
 
-.Navigation_headline {
-    color: var(--clr-gold);
-    font-size: var(--size-4xl);
+#Header_Section img {
+    width: 20vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
-.Navigation_container {
-    color: var(--clr-text-color);
-    display: flex;
+.Header_container {
+    display:flex;
     justify-content: space-between;
+    align-items:center; 
 }
 
-
-.Header_list {
-    padding: 0.5rem;
-    text-decoration: none;
-    margin: 0.5rem;
-    display: flex;
-}
-ul > li > a {
-    color: var(--clr-text-color);
-}
-
-.Nav-Header_list {
-display: flex;
-justify-content: space-between;
-}
-
-.btn {
-    color: var();
+.secondary-section {
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--size-1xl);
+    color: red;
 }
