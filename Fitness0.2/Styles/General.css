@@ -1,3 +1,14 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 :root {
 /* Here is the CSS Variable for Color & Size */
 
@@ -29,21 +40,14 @@
     --size-10xl:10rem;
 }
 
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    border: 0;
-    appearance: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
+
 
 /* There is the Body from HTML here are General Seeting for the Page */
 body {
+font-family: 'Bricolage Grotesque', sans-serif;
 font-family: 'DM Sans', sans-serif;
 font-family: 'Edu SA Beginner', cursive;
+font-family: 'Philosopher', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Signika', sans-serif;
 }

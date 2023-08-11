@@ -3,71 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Edu+SA+Beginner:wght@400;500;600;700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./Styles/Navigation.css">
     <link rel="stylesheet" href="./Styles/General.css">
-    <link rel="stylesheet" href="./Styles/slide.css">
+    <link rel="stylesheet" href="./Styles/Home_Section.css">
 </head>
 <body>
-    <!-- This ist the Header Section here Come All Items there we see in the Head or Navigation -->
-    <header id="Header_Section">
-        <div class="secondary-section">
-        
-                <a href="">Geschenck-Gutschein</a>
-                <a href="">Shop</a>
-                <a href="">Hilfebereich</a>
-            
-        </div>
-        <div class="Header_container">
-            <img src="./public/Logo.jpg" alt="Here we se a Logo Image there is a Big H and P for the Name">
-            <!-- <h1 class="Header_headline">HOLMES PLACE</h1> -->
-        <!-- <nav>
-            <ul> -->
-               
-                <a href="">Suche</a>
-                <a href="">Clubs</a>
-                <a href="">Kurse</a>
-                <a href="">Digital</a>
-                <a href="">Personal Training</a>
-                    
-                    <button onclick="Click-me" value="">
-                    <a href="">Mitglied Werden</a>
-                    </button>
-                
-            <!-- </ul>
-        </nav> -->
-    </div>
-
-
-    </header>
-    
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
-
-    <!-- <section id="container">
-        <div class="slider-wrapper">
+        <header id="Navigations_Header">
+            <div class="navigation_container">
+                <!-- <img src="./public/Logo.jpg" alt=""> -->
+                <h1 class="navigation-headline">HOLMES PLACE</h1>
+                        <li class="navigation-list-item"><a href="">Clubs</a></li>
+                        <li class="navigation-list-item"><a href="">Kurse</a></li>
+                        <li class="navigation-list-item"><a href="">Digital</a></li>
+                        <li class="navigation-list-item"><a href="">Personal Training</a></li>
+                        <li class="navigation-list-item"><a href="">Geschenck-Gutschein</a></li>
+                        <li class="navigation-list-item">
+                            <button>Mitglied Werden<a href=""></a>
+                            </button></li>
+            </div>
+        </header>
+        <section id="Home_Section">
             <div class="slider">
-                <img id="slide-1" src="./public/Card1.jpg" alt="">
-                <img id="slide-2" src="./public/Card_2.jpg" alt="">
-                <img id="slide-3" src="./public/Card_3.jpg" alt="">
-
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <div class="slide first">
+                        <img src="./public/Card1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./public/Card_2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./public/Card_3.jpg" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
             </div>
-            <div class="slider-nav">
-                <a href="#slide-1"></a>
-                <a href="#slide-2"></a>
-                <a href="#slide-3"></a>
-            </div>
-        </div>
 
-
-    </section> -->
-    
-    <script src="./index.js"></script>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <footer></footer>
+        <script src="index.js"></script>
 </body>
 </html>
