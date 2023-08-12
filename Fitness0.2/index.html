@@ -23,11 +23,12 @@
                         <li class="navigation-list-item"><a href="">Personal Training</a></li>
                         <li class="navigation-list-item"><a href="">Geschenck-Gutschein</a></li>
                         <li class="navigation-list-item">
-                            <button>Mitglied Werden<a href=""></a>
-                            </button></li>
-            </div>
+                            <button onclick="gotoLink"(this) value="https://www.holmesplace.de/mitglied-werden">Mitglied Werden<a href="https://www.holmesplace.de/mitglied-werden"></a>
+                            </button> 
+                            </li>
+            </div> 
         </header>
-        <section id="Home_Section">
+        <!-- <section id="Home_Section">
             <div class="slider">
                 <div class="slides">
                     <input type="radio" name="radio-btn" id="radio1">
@@ -56,8 +57,41 @@
                 </div>
             </div>
 
+        </section> -->
+        <section id Home_Section>
+                <div class="slider">
+                    <div class="list">
+                        <div class="item">
+                            <img src="./public/Willkommen.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./public/TechnoGym.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./public/Trainingsfläche.jpeg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="./public/Zirkel_Training.jpeg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- button prev and next -->
+                    <div class="buttons">   
+                        <button id="prev"><</button>
+                        <button id="next">></button>
+                    </div>
+                    <!-- dots ( if 5 items => h dot) -->
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                
+                </div>
+
         </section>
-        <section></section>
         <section></section>
         <section></section>
         <section></section>
