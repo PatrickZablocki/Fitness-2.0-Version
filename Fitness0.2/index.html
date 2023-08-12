@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="./Styles/Home_Section.css">
     <link rel="stylesheet" href="./Styles/Health.css">
     <link rel="stylesheet" href="./Styles/Kurs.css">
+    <link rel="stylesheet" href="./Styles/News-Blog.css">
 </head>
 <body>
+            <!-- Header begin with The Fitness Video -->
     <header>
             <video id="background-video" src="Holmes_Place_-_Premium_Fitness_Clubs.mp4" autoplay muted loop></video>
+            <!-- Here begin The div container with the First Text -->
             <div class="header_container">
             <p>CLUBS MIT POOL,PERSONAL TRAINING,KURSE UND<br>
                 DIGITAL WORKOUT
@@ -24,12 +27,13 @@
             <h1>HOLMES PLACE</h1>
             </div>
         </header>
+        <!-- Begin The Welcome Section -->
         <section id="Welcome">
                 <h3 class="Welcome-text2">WILLKOMMEN BEI HOLMES PLACE</h3>
                 <h2 class="Welcome-text1">Fitness, Gesundheit und Wellbeing unter<br>
                     einem Dach
                 </h2>
-
+                <!-- I Split the Section in a Half  Here begin -->
                 <div class="Düsseldorf_container">
                     <div class="Düsseldorf_text">
                     <h3 class="Düsseldorf_text2">IHR PREMIUM FITNESSSTUDIO IN DÜSSELDORF OBERKASSEL</h3><br>
@@ -48,6 +52,7 @@
 
                 
         </section>
+        <!-- Here in this Sections is the Journey -->
         <section id="Health">
                 <p>HEALTH JOURNEY</p>
                     <div class="Headline-container">
@@ -69,6 +74,7 @@
                     </div>
                     </div>     
         </section>
+        <!-- Here We hve 5 Cards with Diffrents Course -->
         <section id="Kurse">
             <div class="Kurse_infotext">
                 <h3 class="Fitnes_Kurse">FITNESS-KURSE</h3><br>
@@ -158,6 +164,95 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- In this Section we Split it in 2 Dffrents , The One istthe News andthe Another is the Blog with Slides -->
+        <section id="News-Blog">
+            
+            <div class="News_container">
+                <h4>UNSERE NEUIGKEITEN FÜR SIE</h4><br>
+                <h2 class="News_headline">Holmes Place News</h2><br>
+            </div>
+            <div class="News_second_container">
+                <div class="News_image">
+                <img src="./public/News_img.jpg" alt="">
+                </div>
+                <div class="News_infotext">
+                <h3>Holmes Place Succes Stories</h3><br>
+                <p>
+                    Ob Muskelaufbau, Gewichtsverlust, Schmerzbekämpfung oder einfach fitter im Alltag<br>
+                    - hier erfahren Sie mehr darüber, wie Holmes Place Mitglieder mit unserer Hilfe ihre individuellen Ziele erreichen konnten.<br> 
+                </p>
+                </div>
+            </div>
+
+            <h4>BLOG</h4><br>
+            <h2>Aktuelle Artikel zu Fitnesstrends, Ernährung uvm.</h2>
+                    <!-- image slider start -->
+                <div slider>
+                    <div class="slides">
+                        <!-- radio buttons start -->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <input type="radio" name="radio-btn" id="radio6">
+                        <input type="radio" name="radio-btn" id="radio7">
+                        <input type="radio" name="radio-btn" id="radio8">
+                        <!-- radio Buttons end -->
+                        <!-- slide images start -->
+                        <div class="slide first">
+                            <img src="./public/Slides-Training1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Lifestyle.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Slides-TRaining2.jpeg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Slides-Training3.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Ernährung1.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Ernährung2.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Ernährung3.png" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="./public/Ernährung4.jpg" alt="">
+                        </div>
+                        <!-- slide images end -->
+                        <!-- automatic navigation start -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                            <div class="auto-btn6"></div>
+                            <div class="auto-btn7"></div>
+                            <div class="auto-btn8"></div>
+                        </div>
+                        <!-- automatic navigation end -->
+            </div>
+                <!-- manual navigation start -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                    <label for="radio6" class="manual-btn"></label>
+                    <label for="radio7" class="manual-btn"></label>
+                    <label for="radio8" class="manual-btn"></label>
+                </div>
+                <!-- manual navigation end -->
+        </div>
+        <!-- image slider end -->
         </section>
         <footer></footer>
         <script src="index.js"></script>
