@@ -5,10 +5,10 @@
 #Navigations_Header {
 position: absolute;
 width: 99vw;
-height: 28vh;
-border: 2px solid;
-border-radius: 15px;
-background-color: var(--clr-gold);
+height: 15vh;
+/* border: 2px solid;
+border-radius: 15px; */
+background-color: var(--clr-dark);
 font-family: 'Philosopher', sans-serif;
 }
 .navigation_container {
@@ -21,7 +21,8 @@ font-family: 'Philosopher', sans-serif;
 }
 .navigation-headline {
     padding: 15px;
-    font-size: var(--size-6xl)
+    font-size: var(--size-6xl);
+    color: var(--clr-gold);
 }
 li {
     padding: 10px;
@@ -31,7 +32,7 @@ li {
     font-size: var(--size-3xl);
 }
 li a {
-    color: var(--clr-dark);
+    color: var(--clr-gold);
 }
 li a:hover {
 background-color: var(--clr-light);
@@ -39,6 +40,17 @@ color:black;
 border: 1px solid grey;
 border-radius: 15px;
 text-shadow: 20px 20px 20px;
+}
+button {
+background-color: var(--clr-gold);
+border: 3px solid white;
+border-radius: 15px;
+width: 6vw;
+height: 5vh;
+overflow: hidden;
+}
+button:hover {
+    background-color: grey;
 }
 
 
