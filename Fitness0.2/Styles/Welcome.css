@@ -1,0 +1,68 @@
+#Welcome{
+    background: var(--clr-dark);      
+}
+.Welcome-text2{
+    padding-top: 40px;
+    font-size: var(--size-2xl);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    font-family: inherit;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--clr-light-gold);
+    text-shadow: 10px 10px 10px var(--clr-light-gold);
+}
+.Welcome-text1{
+    padding-top: 25px;
+    font-size: var(--size-7xl);
+    font-family: Neutra2text book,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--clr-gold);
+    text-shadow: 20px 20px 20px var(--clr-gold);
+}
+.Düsseldorf_container {
+    display: flex;
+    align-items: center;
+}
+.Düsseldorf_text{
+    flex: 1;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gold;
+    height:35vh;
+    padding-top: 75px;
+    border-radius: 15px;
+}
+.Düsseldorf_img{
+flex: 1;
+text-align: right;
+}
+.Düsseldorf_container img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+.Düsseldorf_text2{
+    font-size: var(--size-lg);
+    color: var(--clr-gold);
+}
+.Düsseldorf_text1{
+    font-size: var(--size-7xl);
+    color: var(--clr-gold);
+    text-shadow: 25px 25px 25px;
+}
+.Düsseldorf_container pre{
+    font-size: var(--size-base);
+    color: var(--clr-gold);
+    padding-right: 15px;
+}
+    
+    
+  
+
