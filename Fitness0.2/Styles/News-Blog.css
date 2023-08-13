@@ -129,34 +129,5 @@ transition-delay: 0;
  .carousel-button.next{
   right: 1rem;
  }
- /* Here begin The Text for the Slides Images */
 
- .Ernährung-1-Headline{
-  font-size: var(--size-7xl);
-  color: var(--clr-light-gold);
-  text-shadow: 15px 15px 15px GOld;
- }
- .Ernährung-1-container{
-  display: block;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: var(--clr-dark);
- }
- .Ernährung-1-container img{
-  width:25vw;
-  height: 25vh;
-  border: 1px solid gold;
-  border-radius: 25px;
- }
- .Ernährung-1-container h3{
-  font-size: var(--size-5xl);
-  color: var(--clr-light-gold);
-  text-shadow: 15px 15px 15px gold;
-  text-overflow: hidden;
-}
-.Ernährung-1-container p {
-  color: white;
-  font-size: var(--size-xl);
-  overflow: hidden;
-}
+ 
