@@ -44,6 +44,12 @@
     transition: 250ms ease-in-out;
     box-shadow: 15px 15px 15px;
 }
+.card:hover{
+    background: var(--clr-gold);
+    border: 2px solid Gold;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px;
+}
 .card img{
     height: 100%;
 }
