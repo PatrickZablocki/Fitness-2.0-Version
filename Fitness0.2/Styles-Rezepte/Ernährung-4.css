@@ -1,0 +1,49 @@
+body{
+    background: var(--clr-dark);
+}
+.Titel-image{
+    width: 99.2vw;
+    height: 50vh;
+    object-fit: cover;
+    box-shadow: 15px 15px 15px rgba(116, 16, 16, 0.65);
+}
+.Ernährung-4-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    overflow: hidden;
+}
+.Ernährung-4-container img{
+    width: 50vw;
+    height: 100%;
+    border: 1px solid gold;
+    border-radius: 25px;
+}
+.Ernährung-4-container h2{
+font-size: var(--size-6xl);
+color: var(--clr-light-gold);
+text-shadow: 15px 15px 15px GOld;
+}
+.Ernährung-4-container h3{
+    color: var(--clr-light-gold);
+    font-size: var(--size-4xl);
+    text-shadow: 15px 15px 15px GOld;
+}
+.Ernährung-4-container h4{
+    color: var(--clr-light-gold);
+    font-size: var(--size-2xl);
+    text-shadow: 15px 15px 15px GOld;
+}
+.Ernährung-4-container p{
+color: var(--clr-text-color);
+font-size: var(--size-xl);
+font-weight: 500;
+overflow: hidden;
+}
+li{
+    color: var(--clr-text-color);
+    font-size: var(--size-xl);
+    
+}

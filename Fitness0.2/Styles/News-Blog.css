@@ -88,13 +88,14 @@
  }
  .slide > img {
    display: block;
-   width: 99.2vw;
-   height: 600px;
+   /* width: 99.2vw;
+   height: 600px; */
+   width: 99vw;
+   height: 60vh;
    object-fit: cover;
    object-position: center;
    border: 1px solid gold;
    border-radius: 30px;
-   
   }
  .slide[data-active]{
 opacity: 1;

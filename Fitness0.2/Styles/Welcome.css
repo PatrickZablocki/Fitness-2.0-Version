@@ -44,9 +44,17 @@ flex: 1;
 text-align: right;
 }
 .Düsseldorf_container img{
-    max-width: 100%;
+    /* max-width: 100%;
     height: auto;
+    position: relative; */
+    width: 35vw;
+    height: 35vh;
     position: relative;
+    object-fit: cover;
+    border: 1px solid gold;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 15px;
 }
 .Düsseldorf_text2{
     font-size: var(--size-lg);
