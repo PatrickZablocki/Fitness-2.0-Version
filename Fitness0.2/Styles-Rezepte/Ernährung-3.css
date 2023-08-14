@@ -21,3 +21,50 @@ body{
     border: 1px solid gold;
     border-radius: 25px;
 }
+.Ernährung-3-headline{
+    font-size: var(--size-5xl);
+    color: var(--clr-light-gold);
+}
+.Ernährung3-container h3{
+    font-size: var(--size-4xl);
+    color: var(--clr-light-gold);
+    padding-top: 24px;
+}
+.Ernährung3-container p{
+    font-size: var(--size-xl);
+    color: var(--clr-text-color);
+    font-weight:600;
+}
+.Weiterleiten h3{
+    font-size: var(--size-3xl);
+    display: inline-block;
+    margin-inline: 12px;
+    padding-inline: 25px;
+    border: 2px solid Gold;
+    border-radius: 25px;
+    background: var(--clr-gold);
+    margin-top: 12px;
+    color: var(--clr-text-color);
+}
+.Weiterleiten{
+    display: block;
+    border: 1px solid goldenrod;
+    background: rgba(192, 198, 32, 0.69);
+    margin-bottom: 12px;
+    margin-left: 80px;
+    width: 90vw;
+    height: 25vh;
+    box-shadow: 15px 15px 15px gold;
+}
+.Weiterleiten p{
+    padding-top: 25px;
+    overflow: hidden;
+}
+a{
+    font-size: var(--size-2xl);
+    text-decoration: underline;
+    color: var(--clr-text-color);
+}
+a:hover{
+    color: var(--clr-gold);
+}
