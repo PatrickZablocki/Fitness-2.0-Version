@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +12,17 @@
     <link rel="stylesheet" href="./Styles/General.css">
     <link rel="stylesheet" href="./Styles/Home_Section.css">
     <link rel="stylesheet" href="./Styles/Health.css">
+    <link rel="stylesheet" href="./Styles/Kurs.css">
+    <link rel="stylesheet" href="./Styles/News-Blog.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+
+    
 </head>
 <body>
+            <!-- Header begin with The Fitness Video -->
     <header>
             <video id="background-video" src="Holmes_Place_-_Premium_Fitness_Clubs.mp4" autoplay muted loop></video>
+            <!-- Here begin The div container with the First Text -->
             <div class="header_container">
             <p>CLUBS MIT POOL,PERSONAL TRAINING,KURSE UND<br>
                 DIGITAL WORKOUT
@@ -23,12 +30,13 @@
             <h1>HOLMES PLACE</h1>
             </div>
         </header>
+        <!-- Begin The Welcome Section -->
         <section id="Welcome">
                 <h3 class="Welcome-text2">WILLKOMMEN BEI HOLMES PLACE</h3>
                 <h2 class="Welcome-text1">Fitness, Gesundheit und Wellbeing unter<br>
                     einem Dach
                 </h2>
-
+                <!-- I Split the Section in a Half  Here begin -->
                 <div class="Düsseldorf_container">
                     <div class="Düsseldorf_text">
                     <h3 class="Düsseldorf_text2">IHR PREMIUM FITNESSSTUDIO IN DÜSSELDORF OBERKASSEL</h3><br>
@@ -47,6 +55,7 @@
 
                 
         </section>
+        <!-- Here in this Sections is the Journey -->
         <section id="Health">
                 <p>HEALTH JOURNEY</p>
                     <div class="Headline-container">
@@ -68,8 +77,212 @@
                     </div>
                     </div>     
         </section>
-        <section></section>
-        <footer></footer>
+        <!-- Here We hve 5 Cards with Diffrents Course -->
+        <section id="Kurse">
+            <div class="Kurse_infotext">
+                <h3 class="Fitnes_Kurse">FITNESS-KURSE</h3><br>
+                <h2 class="Kurse_headline">Unsere Kurs-Vielfalt</h2><br>
+            
+            <p class="Kurse_description">Egal ob vor Ort im Club, bei Ihnen zuhause per Livestreaming-Angebot, Outdoor oder in einem anderen Format:<br>
+                Unsere Fitnesskurs-Vielfalt lässt keine Wünsche offen. Von A wie Aqua Classes bis <br>
+                X wie Xpress Trainings - Sie finden garantiert den passenden Kurs für sich!
+            </p><br>
+        </div>
+                    <!-- Here Begin The Cards -->
+            <div class="wrapper">
+                <div class="card">
+                    <img src="./public/Fitneskurse.jpg" alt="">
+                    <div class="card_content">
+                        <div class="content_head">
+                            
+                            <h3>Fitnesskurse</h3>
+                            <h4>FITNESSKURSE<br>
+                            IN UNSEREN CLUBS</h4>
+                        
+                        </div>
+                        
+                    </div>
+                    <div class="content_body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./public/Digital-TRaining.jpg" alt="">
+                    <div class="card_content">
+                        <div class="content_head">
+
+                            <h3>Digital FItness</h3>
+                        <h4>ZUHAUSE,<br>
+                            UNTERWEGS UND IM BÜRO</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="content_body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./public/BootCamp.png" alt="">
+                    <div class="card_content">
+                        <div class="content_head">
+
+                            <h3>Bootcamp Fitness</h3>
+                        <h4>IHR PROGRAMM ZUM<br> 
+                            AUSPOWERN </h4>
+                        </div>
+                        
+                    </div>
+                    <div class="content_body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./public/Boutiqe.png" alt="">
+                    <div class="card_content">
+                        <div class="content_head">
+
+                            <h3>Botique Fitness</h3>
+                        <h4>IHR KURS FÜR ZWISCHEN-<br>
+                            DURCH </h4>
+                        </div>
+                        
+                    </div>
+                    <div class="content_body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./public/Outdoor.jpeg" alt="">
+                    <div class="card_content">
+                        <div class="content_head">
+
+                            <h3>Outdoor Fitness</h3>
+                        <h4>IHR FITNESSERLEBNIS<br>
+                            IM FREIEN</h4>
+                        </div>
+                        
+                    </div>
+                    <div class="content_body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- In this Section we Split it in 2 Dffrents , The One istthe News andthe Another is the Blog with Slides -->
+        <section id="News-Blog">
+            
+            <div class="News_container">
+                <h4>UNSERE NEUIGKEITEN FÜR SIE</h4><br>
+                <h2 class="News_headline">Holmes Place News</h2><br>
+            </div>
+            <div class="News_second_container">
+                <div class="News_image">
+                <img src="./public/News_img.jpg" alt="">
+                </div>
+                <div class="News_infotext">
+                <h3>Holmes Place Succes Stories</h3><br>
+                <p>
+                    Ob Muskelaufbau, Gewichtsverlust, Schmerzbekämpfung oder einfach fitter im Alltag<br>
+                    - hier erfahren Sie mehr darüber, wie Holmes Place Mitglieder mit unserer Hilfe ihre individuellen Ziele erreichen konnten.<br> 
+                </p>
+                </div>
+            </div>
+
+            <h4 class="Blog_headline">BLOG</h4><br>
+            <h2 class="Blog_text">Aktuelle Artikel zu Fitnesstrends, Ernährung uvm.</h2>
+               
+                <div class="Blog_container">
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button prev" data-carousel-button="prev">
+                            &#8656;</button>
+                        <button class="carousel-button next" data-carousel-button="next">
+                            &#8658;</button>
+                    <ul data-slides>
+                        <li class="slide" data-active>
+                            <img src="./public/Ernährung1.jpg" alt=""><br>
+                            <h3 class="Artikel-Headline">Ernährung</h3>
+                            <p class="Info-text">10 auf einen Streich – Gesunde Sattmacher mit wenigen Kalorien</p><br>
+                            <a class="Zum-Artikel-btn" href="./Ernährung-1.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img  src="./public/Ernährung2.jpg"  alt=""><br>
+                            <h3 class="Artikel-Headline">Ernährung</h3>
+                            <p class="Info-text">Gesund Kochen mit der Wunderbohne Edamame</p><br>
+                            <a class="Zum-Artikel-btn" href="./Ernährung-2.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Ernährung3.png" alt=""><br>
+                            <h3 class="Artikel-Headline">Ernährung</h3>
+                            <p class="Info-text">Energie für den Körper: welche Lebensmittel machen wach und fit?</p><br>
+                            <a class="Zum-Artikel-btn" href="./Ernährung-3.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Ernährung4.jpg" alt="">
+                            <h3 class="Artikel-Headline">Ernährung</h3>
+                            <p class="Info-text">Johannisbrot ist eine Wunderfrucht für gesunde Ernährung</p><br>
+                            <a class="Zum-Artikel-btn" href="./Ernährung-4.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Slides-Training1.jpg" alt="">
+                            <h3 class="Artikel-Headline">Training</h3>
+                            <p class="Info-text">Cardio vs. Kraftraining, womit nimmt man besser ab?</p><br>
+                            <a class="Zum-Artikel-btn" href="./Training-1.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Slides-Training2.jpg" alt="">
+                            <h3 class="Artikel-Headline">Training</h3>
+                            <p class="Info-text">Schwindelanfälle nach dem Sport? Das könnten die Ursachen sein!</p><br>
+                            <a class="Zum-Artikel-btn" href="./Training-2.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Lifestyle.jpg" alt="">
+                            <h3 class="Artikel-Headline">Lifestyle</h3>
+                            <p class="Info-text">Tun Sie sich etwas Gutes: 10 Gründe, warum Sie fit werden sollten</p><br>
+                            <a class="Zum-Artikel-btn" href="./Lifestyle-1.html">Zum Artikel</a>
+                        </li>
+                        <li class="slide">
+                            <img src="./public/Slides-Lifestyle2.jpeg" alt="">
+                            <h3 class="Artikel-Headline">Lifestyle</h3>
+                            <p class="Info-text">Wie bringe ich meinem Kind schwimmen bei?</p><br>
+                            <a class="Zum-Artikel-btn" href="./Lifestyle-2.html">Zum Artikel</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+        </section>
+        <footer id="footer-impressum">
+            <div class="footer_container"></div>
+                <div class="Info-Social">
+                    <h3>HOLMES PLACE</h3>
+                    
+                </div>
+                
+                <div class="Unternehmen">
+                    <h3>Unternehmen</h3>
+                    <li>Über uns </li>
+                    <li>Clubs</li>
+                    <li>Services</li>
+                    <li>Shop</li>
+                    <li>Blog</li>
+                    <li>Karriere</li>
+                </div>
+                <div class="Hilfe">
+                    <h3>Hilfe</h3>
+                    <li>Hilebereich</li>
+                    <li>Newsletter-Anmeldung</li>
+                    <li>Mitgliedschaft kündigen</li>
+                    <li>Probetraining buchen</li>
+                </div>
+                <div class="Impresum">
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <a href=""></a>
+                    <p>Copyright &copy; Patrick Zablocki</p>
+                </div>
+            </div>
+        </footer>
         <script src="index.js"></script>
+        <script src="Slide.js" defer></script>
 </body>
 </html>

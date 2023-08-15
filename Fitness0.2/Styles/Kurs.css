@@ -1,0 +1,98 @@
+#Kurse{
+    background:rgba(255, 255, 255, 0.816);
+}
+.Kurse_infotext{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    color: var(--clr-dark);
+    border: 3px solid gold;
+    border-radius: 15px;
+    margin: 25px;
+    background-color: rgba(212, 182, 14, 0.521);
+}
+.Kurse_headline{
+    font-size: var(--size-7xl);
+    color: var(--clr-dark);
+    text-shadow: 15px 15px 15px;
+}
+.Fitnes_Kurse{
+    color: var(--clr-dark);
+    font-size: var(--size-xl);
+}
+.Kurse_description{
+    font-size: var(--size-2xl);
+    color: var(--clr-dark);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 250ms ease-in-out;
+    box-shadow: 15px 15px 15px black;
+}
+.card:hover{
+    background: var(--clr-gold);
+    border: 2px solid Gold;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px goldenrod;
+}
+.card img{
+    height: 100%;
+}
+h3{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    
+}
+h4{
+    font-style: italic;
+    color: white;
+}
+.card_content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: linear-gradient(to bottom, transparent,rgba(224, 166, 9, 0.423) 25%);
+    transform: translateY(calc(100%- 109px));
+    transition: 250ms ease-in-out;
+}
+p{
+    color: white;
+}
+.card:hover .card_content{
+    transform: translateY(0);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.content_head{
+    position: relative;
+}
+.content_head::after{
+    content: '';
+    height: 4px;
+    width: 50%;
+    background-color:rgba(255, 217, 0, 0.502);
+    position: absolute;
+    bottom: -15px;
+}

@@ -1,0 +1,40 @@
+#footer-impressum{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background: var(--clr-light-gold);
+}
+#footer-impressum h3{
+color: var(--clr-dark);
+font-size: var(--size-5xl);
+}
+.Info-Social{
+display: flex;
+justify-content:start;
+text-align: left;
+margin-right: 600px;
+}
+.Info-Social h3{
+    color:var(--clr-dark);
+    display: flex;
+    justify-content: start;
+}
+.Unternehmen{
+    display: block;
+    padding-top: 12px;
+    margin-right: 500px;
+}
+.Unternehmen li{
+font-size: var(--size-xl);
+font-weight: bold;
+padding-block: 12px;
+}
+.Hilfe li{
+    font-size: var(--size-xl);
+    font-weight: bold;
+    padding-block: 12px;
+}
+.Impresum{
+    color: var(--clr-dark);
+}

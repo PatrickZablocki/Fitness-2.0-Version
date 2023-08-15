@@ -1,0 +1,158 @@
+#News-Blog{
+    background:var(--clr-dark);
+}
+.News_container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.News_headline{
+    color: var(--clr-text-color);
+    font-size: var(--size-7xl);
+    text-shadow: 15px 15px 15px black;
+    border-bottom: 1px solid gold;
+    padding-bottom: 45px;
+}
+.News_infotext{
+    flex: 1;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid gold;
+    border-radius: 30px;
+    margin: 12px;
+}
+.News_infotext h3{
+    font-size: var(--size-6xl);
+    color: var(--clr-light-gold);
+    text-shadow: 15px 15px 15px black;
+}
+.News_infotext p{
+    font-size: var(--size-3xl);
+}
+.News_second_container{
+    display: flex;
+    align-items: center;
+
+}
+.News_second_container img{
+    padding-left: 25px;
+    flex: 1;
+    text-align: left;
+    position: relative;
+}
+  /* Here is THe Little Text (Headline) from The Blog */
+  .Blog_headline{
+    display: flex;
+    justify-content: center;
+    font-size: var(--size-6xl);
+    text-overflow: hidden;
+    text-shadow: 10px 10px 10px black;
+  }
+  .Blog_text{
+    display: flex;
+    justify-content: center;
+    font-size: var(--size-5xl);
+    padding-bottom: 15px;
+    text-overflow: hidden;
+    color: var(--clr-text-color);
+    text-shadow: 10px 10px 10px black;
+  }
+
+
+
+ /* Now we begin here there Style for
+   the Slides 
+ */
+ *,*::before,*::after{
+   box-sizing: border-box;
+ }
+ body{
+   margin: 0;
+ }
+ .carousel{
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+ }
+ .slide{
+   position: absolute;
+   inset: 0;
+   opacity: 0;
+   transition: 200ms opacity ease-in-out;
+   transition-delay: 200ms;
+ }
+ .slide > img {
+   display: block;
+   /* width: 99.2vw;
+   height: 600px; */
+   width: 99vw;
+   height: 60vh;
+   object-fit: cover;
+   object-position: center;
+   border: 1px solid gold;
+   border-radius: 30px;
+  }
+ .slide[data-active]{
+opacity: 1;
+z-index: 1;
+transition-delay: 0;
+ }
+ .carousel-button {
+   position: absolute;
+   z-index: 2;
+   background: none;
+   border: none;
+   font-size: 4rem;
+   top: 50%;
+   transform: translateY(-50%);
+   color: rgba(255,255,255, .5);
+   cursor: pointer;
+   border-radius: .25rem;
+   padding: 0 .5rem;
+   background-color: rgba(0,0,0, .1);
+ }
+ .carousel-button:hover,
+ .carousel-button:focus {
+  color: white;
+  background-color: rgba(0,0,0, .2);
+ }
+ .carousel-button:focus{
+  outline: 1px solid black;
+ }
+ .carousel-button.prev{
+  left: 1rem;
+ }
+ .carousel-button.next{
+  right: 1rem;
+ }
+ .Artikel-Headline{
+  font-size: var(--size-8xl);
+  color:var(--clr-light-gold);
+  text-shadow: 15px 15px 15px black;
+  display: flex;
+  justify-content: center;
+}
+ .Info-text{
+  font-size: var(--size-5xl);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+ }
+ .Zum-Artikel-btn{
+  font-size: var(--size-3xl);
+  color: var(--clr-text-color);
+  border: 1px solid Gold;
+  border-radius: 24px;
+  margin-left: 540px;
+  background: rgba(215, 145, 31, 0.639);
+ }
+ .Zum-Artikel-btn:hover{
+  color: var(--clr-dark);
+ }
+
+ 

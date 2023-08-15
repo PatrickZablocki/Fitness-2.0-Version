@@ -24,7 +24,7 @@ header{
 }
 
 .header_container{
-    border: 3px solid gold;
+    border: 3px solid rgb(255, 217, 0);
     width: 95vw;
     height: 65vh;
 }
@@ -35,7 +35,8 @@ align-items: center;
 justify-content: center;
 padding-top: 300px;
 font-size: var(--size-9xl);
-color: var(--clr-gold);
+color: rgba(255, 217, 0, 0.457);
+/* color: var(--clr-gold); */
 overflow: hidden;
 }
 .header_container p{
@@ -45,5 +46,6 @@ justify-content: center;
 text-align: center;
 padding-top: 60px;
 font-size: var(--size-5xl);
-color: var(--clr-gold);
+color: rgba(255, 217, 0, 0.457);
+/* color: var(--clr-gold); */
 }
