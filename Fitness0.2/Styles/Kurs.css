@@ -42,13 +42,13 @@
     align-items: center;
     position: relative;
     transition: 250ms ease-in-out;
-    box-shadow: 15px 15px 15px;
+    box-shadow: 15px 15px 15px black;
 }
 .card:hover{
     background: var(--clr-gold);
     border: 2px solid Gold;
     border-radius: 15px;
-    box-shadow: 15px 15px 15px;
+    box-shadow: 15px 15px 15px goldenrod;
 }
 .card img{
     height: 100%;

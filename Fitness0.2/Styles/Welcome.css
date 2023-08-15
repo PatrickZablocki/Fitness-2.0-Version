@@ -11,7 +11,7 @@
     align-items: center;
     text-align: center;
     color: var(--clr-light-gold);
-    text-shadow: 10px 10px 10px var(--clr-light-gold);
+    text-shadow: 10px 10px 10px black;
 }
 .Welcome-text1{
     padding-top: 25px;
@@ -22,7 +22,7 @@
     align-items: center;
     text-align: center;
     color: var(--clr-gold);
-    text-shadow: 20px 20px 20px var(--clr-gold);
+    text-shadow: 20px 20px 20px black;
 }
 .Düsseldorf_container {
     display: flex;
@@ -63,7 +63,7 @@ text-align: right;
 .Düsseldorf_text1{
     font-size: var(--size-7xl);
     color: var(--clr-gold);
-    text-shadow: 25px 25px 25px;
+    text-shadow: 25px 25px 25px black;
 }
 .Düsseldorf_container pre{
     font-size: var(--size-base);

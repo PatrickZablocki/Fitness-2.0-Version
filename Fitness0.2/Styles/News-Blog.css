@@ -12,7 +12,7 @@
 .News_headline{
     color: var(--clr-text-color);
     font-size: var(--size-7xl);
-    text-shadow: 15px 15px 15px;
+    text-shadow: 15px 15px 15px black;
     border-bottom: 1px solid gold;
     padding-bottom: 45px;
 }
@@ -29,7 +29,7 @@
 .News_infotext h3{
     font-size: var(--size-6xl);
     color: var(--clr-light-gold);
-    text-shadow: 15px 15px 15px;
+    text-shadow: 15px 15px 15px black;
 }
 .News_infotext p{
     font-size: var(--size-3xl);
@@ -51,7 +51,7 @@
     justify-content: center;
     font-size: var(--size-6xl);
     text-overflow: hidden;
-    text-shadow: 10px 10px 10px gold;
+    text-shadow: 10px 10px 10px black;
   }
   .Blog_text{
     display: flex;
@@ -60,7 +60,7 @@
     padding-bottom: 15px;
     text-overflow: hidden;
     color: var(--clr-text-color);
-    text-shadow: 10px 10px 10px gold;
+    text-shadow: 10px 10px 10px black;
   }
 
 
@@ -133,7 +133,7 @@ transition-delay: 0;
  .Artikel-Headline{
   font-size: var(--size-8xl);
   color:var(--clr-light-gold);
-  text-shadow: 15px 15px 15px GOld;
+  text-shadow: 15px 15px 15px black;
   display: flex;
   justify-content: center;
 }
