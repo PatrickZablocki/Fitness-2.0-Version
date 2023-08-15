@@ -35,6 +35,15 @@ padding-block: 12px;
     font-weight: bold;
     padding-block: 12px;
 }
-.Impresum{
+#Impresum{
     color: var(--clr-dark);
+    text-align: left;
+    
+}
+a{
+    color: var(--clr-dark);
+    font-size: var(--size-xl);
+}
+a:hover {
+    text-decoration: underline;
 }
