@@ -130,5 +130,29 @@ transition-delay: 0;
  .carousel-button.next{
   right: 1rem;
  }
+ .Artikel-Headline{
+  font-size: var(--size-8xl);
+  color:var(--clr-light-gold);
+  text-shadow: 15px 15px 15px GOld;
+  display: flex;
+  justify-content: center;
+}
+ .Info-text{
+  font-size: var(--size-5xl);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+ }
+ .Zum-Artikel-btn{
+  font-size: var(--size-3xl);
+  color: var(--clr-text-color);
+  border: 1px solid Gold;
+  border-radius: 24px;
+  margin-left: 540px;
+  background: rgba(215, 145, 31, 0.639);
+ }
+ .Zum-Artikel-btn:hover{
+  color: var(--clr-dark);
+ }
 
  
