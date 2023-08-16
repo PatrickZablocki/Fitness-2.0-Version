@@ -9,6 +9,10 @@
 color: var(--clr-dark);
 font-size: var(--size-5xl);
 }
+#footer-impressum p{
+    display: flex;
+    color: var(--clr-dark);
+}
 .Info-Social{
 display: flex;
 justify-content:start;
